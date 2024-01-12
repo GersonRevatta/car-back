@@ -12,10 +12,13 @@ Carro de compras
  bundle install 
 ```
 
-### specs
+### Crear Db y crear datos iniciales
 
 ```sh
- rspec spec 
+
+ rake db:create
+ rake db:migrate
+ rake db:seed
 ```
 
 ### Ejecutar
