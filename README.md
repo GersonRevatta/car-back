@@ -1,24 +1,25 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Carro de compras
 
-Things you may want to cover:
+## Pasos
 
-* Ruby version
+1 Asegurarse de tener ruby-2.4.1
 
-* System dependencies
+### Instalar
 
-* Configuration
+```sh
+ bundle install 
+```
 
-* Database creation
+### specs
 
-* Database initialization
+```sh
+ rspec spec 
+```
 
-* How to run the test suite
+### Ejecutar
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```sh
+rails s 
+```
